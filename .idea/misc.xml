@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Shortcut/@EntryValue" value="ternary" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Description/@EntryValue" value="Ternary operator" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Text/@EntryValue" value="$condition$ ? $exprTrue$ : $exprFalse$;" type="string" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exp/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=condition/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprFals/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprF/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprFals/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprTrue/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=e/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprFa/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=ex/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprFal/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprTrue/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=expr/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=condition/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=A50E65CA2450AF43802099DE5857D053/Field/=exprFalse/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=condi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=condition/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Text/@EntryValue" value="$condition$ ? $expr1$ : $expr2$;" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=e/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=co/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=cond/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=condit/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Description/@EntryValue" value="Ternary operator" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=exp/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Shortcut/@EntryValue" value="ternary" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=c/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=expr/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=conditi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=con/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=expr2/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=expr1/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=ex/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=conditio/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=expr1/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=5ACDE48AA0FDF84499B8F7FD1A3287D2/Field/=condition/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=ClassName/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Description/@EntryValue" value="Class declaration" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=MethodName/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=MemberVariable/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=MethodName/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Text/@EntryValue" value="class $ClassName$ {&#10;private:&#10;    int $MemberVariable$;&#10;&#10;public:&#10;    $ClassName$();&#10;    ~$ClassName$();&#10;&#10;    void $MethodName$();&#10;}" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Shortcut/@EntryValue" value="cls" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=ClassName/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/Field/=MemberVariable/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC3B5A4BE5676C498D35D1C872A2F7FD/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=condi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=con/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=expr1/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=condit/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=e/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=expr1/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=expr/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=ex/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=conditi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Shortcut/@EntryValue" value="tern" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Description/@EntryValue" value="Short for ternary operator" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=c/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=co/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=exp/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=expr2/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Text/@EntryValue" value="$condition$ ? $expr1$ : $expr2$;" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=condition/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=expr2/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=cond/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=condition/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=FED27DAC32581045B346A2F5A3FC9260/Field/=conditio/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Text/@EntryValue" value="class $ClassName$ {&#10;private:&#10;    $memberVariable$;&#10;&#10;public:&#10;    $ClassName$();&#10;    ~$ClassName$();&#10;&#10;    $methodName$();&#10;}" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Shortcut/@EntryValue" value="cls" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=memberVariable/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=methodName/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=methodName/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Description/@EntryValue" value="Alternate class declaration" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=ClassName/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=ClassName/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=8067FDAD293C0D409345817FB2226EA8/Field/=memberVariable/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=conditi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Shortcut/@EntryValue" value="tern" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=expr1/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=condi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Description/@EntryValue" value="Shortcut for the ternary operator" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=condition/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=expr/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=condit/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=expr1/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=cond/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=conditio/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Text/@EntryValue" value="$condition$ ? $expr1$ : $expr2$;" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=ex/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=c/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=expr/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=e/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=condition/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=con/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=co/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Field/=exp/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=3E765D497A415349AC5DEF1F2E92F08A/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=expr1/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=ex/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=cond/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=condition/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=co/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=condit/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=conditi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Text/@EntryValue" value="$condition$ ? $expr1$ : $expr2$;" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Shortcut/@EntryValue" value="tern" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=con/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=expr/Order/@EntryValue" value="2" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=condition/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=c/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=e/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Description/@EntryValue" value="A shortcut for the ternary operator" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=conditio/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=exp/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=expr1/Order/@EntryValue" value="1" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=condi/Order/@EntryValue" value="0" type="long" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=73F99C3BFDC2624AB11C9C82743E17DD/Field/=expr/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Shortcut/@EntryValue" value="cls" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Description/@EntryValue" value="Alternate class delcaration" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF835CA742CE9F4683A281EB997EF7AB/Text/@EntryValue" value="class $ClassName$ {&#10;private:&#10;    $memberVariable$;&#10;&#10;public:&#10;    $ClassName$();&#10;    ~$ClassName$();&#10;&#10;    $methodName$();&#10;}" type="string" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+</project>
