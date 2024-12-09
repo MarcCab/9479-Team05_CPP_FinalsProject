@@ -5,13 +5,12 @@ using namespace std;
 void showMainMenu();
 int getUserInput();
 
-void main() {
+int main() {
     while (true) {
         showMainMenu();
 
         switch (getUserInput()) {
             case 1:
-                cout << "Play Tic-Tac-Toe" << endl;
                 playTicTacToe();
                 break;
             case 2:
