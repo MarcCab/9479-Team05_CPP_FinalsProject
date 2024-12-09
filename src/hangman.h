@@ -11,6 +11,19 @@ public:
 
     // Method to start the game
     void play();
+
+private:
+    std::string secretWord;
+    std::string currentWord;
+    int attemptsLeft;
+    std::vector<char> guessedLetters;
+
+    // Helper methods
+    std::string getRandomWord();
+    bool alreadyGUessed(char letter);
+    bool updateCurrentWord(char letter);
+    void displayGameInfo();
+    void drawHangman(int attemptsLeft);
 };
 
 #endif
