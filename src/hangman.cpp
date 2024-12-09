@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -58,6 +59,12 @@ void HangmanGame::play() {
 }
 
 // Private helper methods
+string HangmanGame::getRandomWord() {
+    vector<string> words = { "apple", "banana", "cherry", "grape", "kiwi" };
+    int index = rand() % words.size();
+    return words[index];
+}
+
 bool HangmanGame::alreadyGuessed(char letter) {
     return find(guessedLetters.begin(), guessedLetters.end(), letter) != guessedLetters.end();
 }
