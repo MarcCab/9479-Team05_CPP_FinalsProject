@@ -22,10 +22,18 @@ void playTicTacToe() {
                         { ' ', ' ', ' ' }, 
                         { ' ', ' ', ' ' } 
                        };
+    string player1, player2;
     char player = 'X';
     int row, col, turn;
 
+    // Get player names
     cout << "Welcome to Tic-Tac-Toe!\n";
+    cout << "Enter Player 1's name (X): ";
+    cin >> player1;
+    cout << "Enter Player 2's name (O): ";
+    cin >> player2;
+
+    cout << "\nLet's start the game!\n";
 
     for (turn = 0; turn < 9; turn++) {
         displayGrid(board);
