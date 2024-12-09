@@ -50,3 +50,20 @@ void HangmanGame::play() {
         cout << "You've run out of attempts. The word was: "  << endl;
     }
 }
+
+// Private helper methods
+bool HangmanGame::alreadyGuessed(char letter) {
+    return find(guessedLetters.begin(), guessedLetters.end(), letter) != guessedLetters.end();
+}
+
+bool HangmanGame::updateCurrentWord(char letter) {
+    bool correctGuess = false;
+    for (int i = 0; i < secretWord.length(); i++) {
+        if (secretWord[i] == letter) {
+            currentWord[i] = letter;
+            correctGuess = true;
+        }
+    }
+    guessedLetters.push_back(letter);
+    return correctGuess;
+}
