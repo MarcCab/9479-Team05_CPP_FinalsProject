@@ -51,8 +51,15 @@ void playTicTacToe() {
 
     for (turn = 0; turn < 9; turn++) {
         displayGrid(board);
+
+        // Display the player's turn with their name
+        if (player == 'X') {
+            cout << "Player " << player1 << ", enter row (0-2) and column (0-2): ";
+        } else {
+            cout << "Player " << player2 << ", enter row (0-2) and column (0-2): ";
+        }
+
         while (true) {
-            cout << "Player " << player << ", enter row (0-2) and column (0-2): ";
             cin >> row >> col;
 
             if (row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
