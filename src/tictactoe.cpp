@@ -31,58 +31,66 @@ bool checkWin(char board[3][3], char player) {
 
 // Function to play Tic-Tac-Toe
 void playTicTacToe() {
-    char board[3][3] = { 
-                        { ' ', ' ', ' ' }, 
-                        { ' ', ' ', ' ' }, 
-                        { ' ', ' ', ' ' } 
-                       };
     string player1, player2;
-    char player = 'X';
-    int row, col, turn;
+    char board[3][3];
+    char player;
+    bool playAgain;
 
-    // Get player names
     cout << "Welcome to Tic-Tac-Toe!\n";
     cout << "Enter Player 1's name (X): ";
     cin >> player1;
     cout << "Enter Player 2's name (O): ";
     cin >> player2;
 
-    cout << "\nLet's start the game!\n";
+    do {
+        // Initialize board
+        for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 3; j++)
+                board[i][j] = ' ';
 
-    for (turn = 0; turn < 9; turn++) {
-        displayGrid(board);
+        player = 'X'; // Player X always starts
+        int turn, row, col;
 
-        // Display the player's turn with their name
-        if (player == 'X') {
-            cout << "Player " << player1 << ", enter row (1-3) and column (1-3), seperated by a space: ";
-        } else {
-            cout << "Player " << player2 << ", enter row (1-3) and column (1-3), seperated by a space: ";
-        }
+        cout << "\nLet's start the game!\n";
+        for (turn = 0; turn < 9; turn++) {
+            displayGrid(board);
+            cout << (player == 'X' ? player1 : player2) 
+                 << "'s turn (" << player << "). Enter row (1-3) and column (1-3), separated by a space: ";
 
-        while (true) {
-            cin >> row >> col;
+            while (true) {
+                cin >> row >> col;
+                row -= 1;
+                col -= 1;
 
-            row -= 1;
-            col -= 1;
+                if (row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
+                    cout << "Invalid move. Try again: ";
+                } else {
+                    break;
+                }
+            }
 
-            if (row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
-                cout << "Invalid move. Try again.\n";
-            } else {
+            board[row][col] = player;
+
+            if (checkWin(board, player)) {
+                displayGrid(board);
+                cout << (player == 'X' ? player1 : player2) << " wins!\n";
                 break;
             }
-        }
-        board[row][col] = player;
 
-        if (checkWin(board, player)) {
+            player = (player == 'X') ? 'O' : 'X';
+        }
+
+        if (turn == 9) {
             displayGrid(board);
-            cout << "Player " << player << " wins!\n";
-            return;
+            cout << "It's a draw!\n";
         }
 
-        player = (player == 'X') ? 'O' : 'X';
-    }
+        char response;
+        cout << "Do you want to play again? (Y/N): ";
+        cin >> response;
+        playAgain = (response == 'Y' || response == 'y');
+    } while (playAgain);
 
-    displayGrid(board);
-    cout << "It's a draw!\n";
+    cout << "Thank you for playing Tic-Tac-Toe!\n";
 }
 
