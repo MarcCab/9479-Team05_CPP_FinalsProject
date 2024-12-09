@@ -3,6 +3,8 @@
 #include <iostream>
 #include "hangman.h"
 
+#define MAX_ATTEMPTS 6
+
 using namespace std;
 
 // Constructor
@@ -20,6 +22,7 @@ void HangmanGame::play() {
     cout << "You have " << attemptsLeft << " attempts to guess the fruit name." << endl;
 
     while (attemptsLeft > 0) {
+        displayGameInfo();
         char guess;
         cout << "Guess a letter: ";
         cin >> guess;
@@ -33,12 +36,14 @@ void HangmanGame::play() {
                 if (correctGuess) {
                     cout << "Good guess!" << endl;
                     if (currentWord == secretWord) {
-                        cout << "Congratulations! You guessed the word: " << endl;
+                        displayGameInfo();
+                        cout << "Congratulations! You guessed the word: " << secretWord << endl;
                         return;
                     }
                 } else {
                     cout << "Incorrect guess." << endl;
                     attemptsLeft--;
+                    drawHangman(attemptsLeft);
                 }
             }
         } else {
@@ -47,7 +52,8 @@ void HangmanGame::play() {
     }
 
     if (attemptsLeft == 0) {
-        cout << "You've run out of attempts. The word was: "  << endl;
+        displayGameInfo();
+        cout << "You've run out of attempts. The word was: " << secretWord << endl;
     }
 }
 
