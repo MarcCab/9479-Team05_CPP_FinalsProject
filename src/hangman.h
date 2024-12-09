@@ -20,7 +20,7 @@ private:
 
     // Helper methods
     std::string getRandomWord();
-    bool alreadyGUessed(char letter);
+    bool alreadyGuessed(char letter);
     bool updateCurrentWord(char letter);
     void displayGameInfo();
     void drawHangman(int attemptsLeft);
