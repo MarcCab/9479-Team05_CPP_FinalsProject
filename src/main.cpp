@@ -1,4 +1,5 @@
 #include <iostream>
+#include "tictactoe.h"
 using namespace std;
 
 void showMainMenu();
@@ -11,8 +12,8 @@ void main() {
         switch (getUserInput()) {
             case 1:
                 cout << "Play Tic-Tac-Toe" << endl;
-                // TODO: Call Tic-Tac-Toe game
-
+                playTicTacToe();
+                break;
             case 2:
                 cout << "Play Hangman" << endl;
                 // TODO: Call Hangman game
