@@ -67,3 +67,14 @@ bool HangmanGame::updateCurrentWord(char letter) {
     guessedLetters.push_back(letter);
     return correctGuess;
 }
+
+// added method to display game state and hangman drawing
+void HangmanGame::displayGameInfo() {
+    cout << "Word: " << currentWord << endl;
+    cout << "Attempts left: " << attemptsLeft << endl;
+    cout << "Guessed letters: ";
+    for (char letter : guessedLetters) {
+        cout << letter << " ";
+    }
+    cout << endl;
+}
