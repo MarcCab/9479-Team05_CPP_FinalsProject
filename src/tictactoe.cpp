@@ -54,13 +54,16 @@ void playTicTacToe() {
 
         // Display the player's turn with their name
         if (player == 'X') {
-            cout << "Player " << player1 << ", enter row (0-2) and column (0-2): ";
+            cout << "Player " << player1 << ", enter row (1-3) and column (1-3), seperated by a space: ";
         } else {
-            cout << "Player " << player2 << ", enter row (0-2) and column (0-2): ";
+            cout << "Player " << player2 << ", enter row (1-3) and column (1-3), seperated by a space: ";
         }
 
         while (true) {
             cin >> row >> col;
+
+            row -= 1;
+            col -= 1;
 
             if (row < 0 || row > 2 || col < 0 || col > 2 || board[row][col] != ' ') {
                 cout << "Invalid move. Try again.\n";
