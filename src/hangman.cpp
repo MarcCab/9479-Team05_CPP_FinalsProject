@@ -78,3 +78,56 @@ void HangmanGame::displayGameInfo() {
     }
     cout << endl;
 }
+
+void HangmanGame::drawHangman(int attemptsLeft) {
+    // Display the hangman drawing based on the number of attempts left
+    if (attemptsLeft == 5) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    } else if (attemptsLeft == 4) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    } else if (attemptsLeft == 3) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |    /|" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    } else if (attemptsLeft == 2) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |    /|\\" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    } else if (attemptsLeft == 1) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |    /|\\" << endl;
+        cout << "  |    /" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    } else if (attemptsLeft == 0) {
+        cout << "   _____" << endl;
+        cout << "  |     |" << endl;
+        cout << "  |     O" << endl;
+        cout << "  |    /|\\" << endl;
+        cout << "  |    / \\" << endl;
+        cout << "  |" << endl;
+        cout << "  |" << endl;
+    }
+}
