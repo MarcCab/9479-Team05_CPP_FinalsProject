@@ -1,18 +1,18 @@
 #include <iostream>
+#include "tictactoe.h"
 using namespace std;
 
 void showMainMenu();
 int getUserInput();
 
-void main() {
+int main() {
     while (true) {
         showMainMenu();
 
         switch (getUserInput()) {
             case 1:
-                cout << "Play Tic-Tac-Toe" << endl;
-                // TODO: Call Tic-Tac-Toe game
-
+                playTicTacToe();
+                break;
             case 2:
                 cout << "Play Hangman" << endl;
                 // TODO: Call Hangman game
